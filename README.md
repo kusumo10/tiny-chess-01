@@ -12,5 +12,8 @@ with a plain search fallback outside the book.
 - Reads only `main.py` and `/input/prompt.txt`.
 - Local practice grades (kit grader): trial-0 Elo 1,396, trial-1 989,
   trial-2 989 (mean 1,125).
+- `main.py` is the packed v29-F engine plus a trailing version comment
+  (no behaviour change): its payload decodes to the v29-F source
+  (sha256 255659740a4d26dcff5667a25aae8c2f70df3e4bbfba4e4c41656297c2215a1b).
 
 License: MIT.
